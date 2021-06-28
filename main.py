@@ -2,7 +2,7 @@
 import streamlit as st
 from st_aggrid import AgGrid
 
-import pandas as pd
+import modin.pandas as pd
 
 
 from PIL import Image
