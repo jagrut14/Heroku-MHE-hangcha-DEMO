@@ -3,7 +3,8 @@
 import streamlit as st
 from st_aggrid import AgGrid
 import os
-import dask
+os.environ["MODIN_ENGINE"] = "dask"
+
 
 
 import modin.pandas as pd
