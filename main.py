@@ -3,6 +3,7 @@
 import streamlit as st
 from st_aggrid import AgGrid
 import os
+import dask
 
 
 import modin.pandas as pd
