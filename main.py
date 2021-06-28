@@ -4,7 +4,7 @@ import streamlit as st
 from st_aggrid import AgGrid
 import os
 os.environ["MODIN_ENGINE"] = "ray"
-#ray.init(ignore_reinit_error=True, log_to_driver=False)
+ray.init()
 #ray.remote(memory=2500 * 1024 * 1024)
 import modin.pandas as pd
 
