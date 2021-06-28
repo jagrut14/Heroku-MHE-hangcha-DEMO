@@ -1,7 +1,8 @@
 # Import Libraries
 import streamlit as st
 from st_aggrid import AgGrid
-
+import os
+os.environ["MODIN_ENGINE"] = "ray"
 import modin.pandas as pd
 
 
