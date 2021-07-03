@@ -3,11 +3,11 @@
 import streamlit as st
 from st_aggrid import AgGrid
 import os
-os.environ["MODIN_ENGINE"] = "dask"
 
 
 
-import modin.pandas as pd
+
+import pandas as pd
 
 
 from PIL import Image
